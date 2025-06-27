@@ -10,11 +10,12 @@ img {
 body {
   margin: 0;
   min-height: 100vh;
-  background: linear-gradient(
-    16deg,
-    rgba(93, 42, 155, 1) 0%,
-    rgba(87, 199, 133, 1) 50%,
-    rgba(237, 83, 163, 1) 100%
+  background: #020024;
+  background: radial-gradient(
+    circle,
+    rgba(2, 0, 36, 1) 41%,
+    rgba(9, 9, 121, 1) 82%,
+    rgba(0, 212, 255, 1) 100%
   );
   background-repeat: no-repeat;
   background-size: cover;
@@ -27,6 +28,7 @@ ul {
   padding: 0;
   overflow: hidden;
   background-color: #00000055;
+  border: none;
 }
 
 li {
@@ -46,5 +48,5 @@ li a:hover {
 }
 
 .active {
-  background-color: #03570a;
+  background-color: #120357;
 }
